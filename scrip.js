@@ -11,3 +11,9 @@ document.addEventListener(‘DOMContentLoaded’, function(){
     document.body.style.fontSize = `${tamanhoAtualFonte}rem`
     }
     })
+
+    let trilho = document.getElementById('trilho')
+
+    trilho.addEventListener('click',()=>{
+        trilho.classList.toggle ('dark')
+    })

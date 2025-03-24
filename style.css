@@ -1,9 +1,8 @@
-h1 {font-size: 18px;
-text-align: left;
-border-style: dotted;font-style: italic; background-color: rgb(101, 138, 138);
+h1 { color: #fff; text-align: center;
 }
 
-h2 { font-size: 22px;}
+h2 { font-size: 22px;
+    color: #fff;}
 
 header {font-size:40px; margin-bottom: 2%; 
 text-align: center;
@@ -14,11 +13,11 @@ font-style: oblique; margin-left: 20%; margin-right:20%;
 text-shadow: 15px;
 }
 
-body {background-color: rgb(184, 184, 184);}
+body {background-color: rgb(37, 43, 54);}
 
 h3 {Font-size: 18px;
     text-align: left;
-    border-style: dotted;
+    border-style: dotted; 
 font-style: italic;}
 
 #surf {margin-left: 25%;margin-right: 20%; border-style: ridge; 
@@ -35,5 +34,30 @@ h3 {background-color: rgb(101, 138, 138);
     border-width: 8px; background-color: rgb(187, 220, 248);
 }
 h5 {
-    font-size: 20px; text-align: left;border-style: dotted;
+    font-size: 20px; text-align: left;border-style: dotted; background-color: rgb(102, 135, 136);
+}
+
+.trilho {
+    width: 350px;
+    height: 150px;
+    background-color: rgb(85, 91, 104);
+    border-radius: 150px;
+    text-align: center;
+    margin-left: 38%;margin-right:20%;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.trilho .indicador {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 200px;
+    transform: scale(.9);
+    position: absolute;
+}
+.trilho.dark .indicador{
+    left: 200px;
+
 }
